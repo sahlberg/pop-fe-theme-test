@@ -1,0 +1,20 @@
+This is the README file for the the test theme for pop-fe.
+It contains a single entry for the game GranTurismo2 in the subdirectory
+data/SCES02380.
+In this directory we have four files for the emtadata when creating a
+PS3 PKG for this game.
+ICON0.PNG  : the disc cover
+PIC0/PIC.PNG  : the two screenshots
+SND0.WAV : An audio file that will play
+
+There need to be one such sudirectory for each game that the theme supports.
+If a theme is choosen but there it does not contain data for the game then
+pop-fe will fall back to just using a random image as it has always has done.
+
+The test data in data/SCES02380 is actually images and audio from the
+game FinalFantasy VII. You can test this by creating a package of SCES02380
+using this theme. It should create a PKG for GranTurismo2 but it will
+use assets for FinalFantasyVII.
+
+This README should also contain information about the style used and guidelines
+for how to create new entries to be contributed to this theme.
